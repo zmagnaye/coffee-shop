@@ -1,3 +1,9 @@
+body {
+    background-color: #F0EAE7;
+    color: #3B2621;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .navbar {
     background-color: #DACCBA !important;
 }
@@ -26,8 +32,39 @@
     z-index: 1;
 }
 
-body {
-    background-color: #F0EAE7;
+form {
+    background-color: #3B2621;
+    color: #DACCBA;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(59, 38, 33, 0.2);
+}
+
+form label {
+    color:#3B2621;
+    font-weight: 500;
+}
+
+/* Form input & text area */
+form .form-control {
+    background-color: #ffffff;
     color: #3B2621;
-    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #B8A996;
+}
+
+
+
+/* form submit button */
+.btn-success {
+    background-color: #DACCBA;
+    color: #3B2621;
+    font-weight: 600;
+}
+
+
+footer {
+    background-color: #DACCBA !important;
+    color:#3B2621 !important;
+    text-align: center;
+    padding: 4px 0px;
 }
