@@ -82,6 +82,26 @@ section h2 {
     color: #5A463F;
 }
 
+table thead th {
+    background-color: #3B2621 !important;
+    color: #F0EAE7 !important;
+    border-color: #B8A996 !important;
+    text-align: center;
+}
+
+table tbody td {
+    color: #3B2621;
+    background-color: #FFFFFF;
+    border-color: #DACCBA;
+    text-align: center;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #E8D9CF !important;
+}
+
+
+
 footer {
     background-color: #DACCBA !important;
     color:#3B2621 !important;
