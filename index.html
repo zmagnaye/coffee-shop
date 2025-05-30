@@ -53,6 +53,11 @@
                     <div class="card-body">
                         <h5 class="card-title">Assam Milk Tea</h5>
                         <p class="">Full-Bodied and Creamy Milk Teas</p>
+                        <button type="button" class="btn btn-outline-primary mt-2" data-bs-toggle="modal" data-bs-target="#drinkModal" 
+                        data-title="Assam Milk Tea"
+                        data-description="Real milk, cane sugar, and loose leaf tea. Simplicity and authenticity – simply delicious.">
+                            More Details
+                        </button>
                     </div>
                 </div>
             </div>
@@ -63,6 +68,11 @@
                     <div class="card-body">
                         <h5 class="card-title">Mint Sereno</h5>
                         <p class="">A Refreshing Sereno Blend</p>
+                        <button type="button" class="btn btn-outline-primary mt-2" data-bs-toggle="modal" data-bs-target="#drinkModal" 
+                        data-title="Mint Sereno"
+                        data-description="The Mint Sereno blend is made from fresh mint, real cream and brown sugar.">
+                            More Details
+                        </button>
                     </div>
                 </div>
             </div>
@@ -73,11 +83,31 @@
                     <div class="card-body">
                         <h5 class="card-title">Strawberry Sunset</h5>
                         <p class="">Brewed with Real Fruits, Hibiscus Flowers, and Rooibos Teas</p>
+                        <button type="button" class="btn btn-outline-primary mt-2" data-bs-toggle="modal" data-bs-target="#drinkModal" 
+                        data-title="Strawberry Sunset"
+                        data-description="A sweet and tangy thirst-quencher that is not only refreshing but also invigorating.">
+                            More Details
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="drinkModal" tableindex="-1" aria-labelledby="drinkModalLabel" area-hidden="true">
+       <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="drinkModalLabel">Drink Name</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="drinkModalBody">
+                    Drink Description will go here.
+                </div>
+            </div>
+       </div>
+    </div>
 
     <!-- Limited Macaron Flavor Section -->
     <section class="container my=5">
@@ -114,7 +144,6 @@
             </div>
         </div>
     </section>
-
 
     <!-- Footer -->
     <footer class="site-footer"> 
