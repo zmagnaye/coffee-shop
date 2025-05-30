@@ -52,8 +52,6 @@ form .form-control {
     border: 1px solid #B8A996;
 }
 
-
-
 /* form submit button */
 .btn-success {
     background-color: #DACCBA;
@@ -61,6 +59,28 @@ form .form-control {
     font-weight: 600;
 }
 
+section h2 {
+    color: #3B2621;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #3B2621;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.card p {
+    color: #5A463F;
+}
 
 footer {
     background-color: #DACCBA !important;
