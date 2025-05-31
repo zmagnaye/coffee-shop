@@ -82,6 +82,22 @@ section h2 {
     color: #5A463F;
 }
 
+.menu-banner {
+    background-image: url("images/menu-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0,2);
+}
+
+.menu-banner h2 {
+    color:#FFFFFF;
+    background-position: center;
+}
+
 table thead th {
     background-color: #3B2621 !important;
     color: #F0EAE7 !important;
@@ -100,7 +116,16 @@ table tbody td {
     background-color: #E8D9CF !important;
 }
 
+.accordion-button {
+    background-color: #3B2621;
+    color: #DACCBA;
+    font-weight: 600;
+}
 
+.accordion-button:not(collapsed) {
+    background-color: #5A463F;
+    color: #FFFFFF;
+}
 
 footer {
     background-color: #DACCBA !important;
